@@ -1,2 +1,5 @@
-  roles:
-    - { role: itnok.update_ubuntu }
+  - become: yes
+    hosts: all
+    name: updateing-system
+    roles:
+      - { role: itnok.update_ubuntu }
