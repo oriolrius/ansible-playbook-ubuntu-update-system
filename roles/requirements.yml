@@ -1,0 +1,4 @@
+---    
+- src: https://github.com/itnok/ansible-role-update-ubuntu.git
+  version: master
+  name: itnok.update_ubuntu
